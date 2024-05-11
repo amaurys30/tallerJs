@@ -1,0 +1,188 @@
+h1 {
+    color: #A0D02E;
+    margin-block-start: 4px;
+    margin-block-end: 0px;
+}
+
+h2 { 
+    color: white;
+    background: #9ED033;
+}
+
+button { 
+    color: white;
+    background: #9ED033;
+    border: 0;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 30px;
+}
+
+.flexContenedorVertical{
+    display: flex;
+    background-image: url(../recursos/imagenes/ferrocaril.jpeg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    background-size: cover;
+    flex-direction: column;
+    padding-left: 15%;
+    margin: -6px;
+}
+.flexContenedor{
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+}
+
+.divLogo{
+    background-color: white;
+    align-content: center;
+    height: 60px;
+}
+.divLogo h3{
+    margin-right: 200px;
+    margin-block-start: 0px;
+    font-size: small;
+    color: #a2a2a9;
+    font-weight: normal;
+}
+
+.divLogo img{
+    width: 100%;
+    height: 50px;
+}
+
+.divHijo{
+    background-color: white;
+    align-content: center;
+    width: 9%;
+    height: 60px;
+    text-align: center;
+}
+
+.divHijo a{
+    text-decoration: none;
+    color: #a2a2a9;
+}
+
+.divHijo:hover{
+    background:#9ED033; 
+}
+.divHijo a{
+    padding-top: 50px;
+}
+
+.divAnuncio{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 28%;
+    height: 100%;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.divAnuncio p{
+    color: #a2a2a9;
+    margin: 8px;
+}
+
+.precio {
+    background: #E0484F;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.divPaises {
+    background: #9ED033;
+    color: white;
+    width: 18%;
+    height: 35px;
+    margin-right: 25px;
+    text-align: center;
+    align-content: center;
+}
+
+/* segunda parte */
+.flexContenedor2{
+    display: flex;
+    background: white;
+    margin-left: 15%;
+}
+
+.divHotel{
+    margin-right: 25px;
+    width: 18%;
+}
+
+.divHotel img{
+    width: 100%;
+    height: 150px;
+}
+
+.p1{
+    color: #9ED033;
+}
+.p2{
+    color: #e54747;
+    font-size: 12px;
+}
+
+.divHotel button{
+    width: 100%;
+}
+
+.divCintaImagenes{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 100px;
+    background-color: #eeeeee;
+}
+
+.divCintaImagenes img{
+    width: 100%;
+    height: 100px;
+    border-right: 1px solid #b8b3b3;
+    border-left: 1px solid #b8b3b3;
+
+}
+
+.divEspacioCintaImagen{
+    width: 13%;
+    height: 100%;
+}
+
+.divPieDePagina{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.logoPiePagina{
+    display: flex;
+    width: 34%;
+    justify-content: flex-end;
+    margin-left: 35px;
+}
+.divPaginas{
+    display: flex;
+    width: 33%;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+    margin-right: 120px;
+}
+
+.divPaginas img{
+    width: 15px;
+    height: 15px;
+}
+.divCopiright{
+    display: flex;
+    width: 33%;
+    color: #a2a2a9;
+    justify-content: center;
+    font-size: 12px;
+}
