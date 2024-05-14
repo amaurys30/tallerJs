@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 h1 {
     color: #A0D02E;
     margin-block-start: 4px;
@@ -26,7 +30,6 @@ button {
     background-size: cover;
     flex-direction: column;
     padding-left: 15%;
-    margin: -6px;
 }
 .flexContenedor{
     display: flex;
